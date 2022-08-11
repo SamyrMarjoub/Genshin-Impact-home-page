@@ -1,0 +1,126 @@
+body, html{
+    margin: 0;
+    height: auto;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    height: 66px;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 4px -2px black;
+
+}
+.header-container{
+    width: 100%;
+    display: flex;
+    height: 100%;
+
+}
+.header-container div{
+    display: flex;
+    align-items: center;
+}
+.flex1{
+    width: 80%;
+}
+.flex2{
+    width: 20%;
+}
+.mscdiv{
+    margin-left: 60px;
+margin-right: 20px;
+
+}
+.mscdiv img{
+    width: 30px;
+
+}
+.logodiv img{
+    width: 170px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(110deg) brightness(104%) contrast(102%);
+
+}
+.listdiv ul{
+display: inline-block;
+}
+.listdiv li{
+    display: inline;
+    color: rgba(255, 255, 255, 0.632);
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    margin-right: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+.arrow-after{
+    position: relative;
+ cursor: pointer;
+}
+.arrow-after::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: url("../images/piramide.svg");
+    top: 3px;
+    right: -15px;
+    position: absolute;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(99%) sepia(0%) saturate(7500%) hue-rotate(245deg) brightness(103%) contrast(100%);
+opacity: 0.6;
+
+}
+.f2f{
+    width: 40%;
+    height: 100%;
+}
+.f2f2{
+    height: 105%;
+    width: 60%;
+   background-image: url('../images/download.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+background-position: center;
+cursor: pointer;
+}
+.f2f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.loginspan{
+    margin-right: 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.632);
+    font-family:  Helvetica, sans-serif;
+}
+.imgf2f{
+    opacity: 0.6;
+    width: 29px;
+}
+#homeli{
+    color: white;
+    text-shadow: 0 0 15px #69e0ff, 0 0 10px#69e0ff;
+    border-top: 5px solid #69e0ff;
+    padding-top: 20px;
+  
+}
+.listdiv li:hover{
+    color: white;
+    text-shadow: 0 0 15px #69e0ff, 0 0 10px#69e0ff;
+    transition: 0.2s all;
+}
+.hover{
+    color: white;
+}
+.imghover{
+    opacity: 1;
+}
