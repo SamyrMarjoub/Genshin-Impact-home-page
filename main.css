@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.main-m {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images//bgimgmain.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.maincontainer {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gold; */
+}
+
+.divbtn {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.divbtn:hover {
+    background-color: transparent;
+    transition: 0.2s all;
+}
+
+.play {
+    width: 30px;
+    opacity: 0.7;
+    transition: 0.2s all;
+    margin-left: 12px;
+}
+
+.playdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 33%;
+}
+
+.svghover {
+    filter: invert(99%) sepia(0%) saturate(7500%) hue-rotate(245deg) brightness(103%) contrast(100%);
+    transition: 0.2s all;
+    opacity: 1;
+}
+
+.plataformsdiv {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.h1-multi {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    text-shadow: 0 0 10px rgb(114 71 21 / 68%), 0 0 10px rgb(114 71 21 / 68%);
+    text-align: center;
+    font-size: 30px;
+}
+
+.griddiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 25px;
+    gap: 15px;
+}
+
+.grid img {
+    opacity: 0.8;
+}
+
+.lastdiv {
+    display: flex;
+    width: 100%;
+    height: 33%;
+}
+
+.lflex {
+    width: 49%;
+}
+
+.teena {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.teendiv {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.lflex2 {
+    width: 51%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.divcontainerflex {
+    width: 340px;
+    background-color: red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lflex2 img {
+    width: 25px;
+    margin-left: 0.8%;
+}
+
+@keyframes arrowS {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.arrowA {
+    animation: arrowS 4s linear infinite;
+}
+
+.news-div {
+    width: 100%;
+    height: 900px;
+    background-image: url('../images/secondbgimg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-container {
+    width: 1300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first-news {
+    display: flex;
+    width: 100%;
+}
+
+.flex-news {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    margin-top: 4.5%;
+}
+
+.barra-direita {
+    transform: rotate(180deg);
+}
+
+.d1n {
+    width: 42%;
+    justify-content: flex-end;
+}
+
+.d2n {
+    width: 16%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.d3n {
+    width: 42%;
+    text-align: start;
+}
+
+.d2n p {
+    margin: 0;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.d1n {
+    text-align: end;
+
+}
+
+.d1n img {
+    width: 500px;
+    margin-top: 25px;
+}
+
+.d3n img {
+    width: 500px;
+    margin-top: 25px;
+}
+
+.slidediv {
+    width: 50%;
+    height: 100%;
+}
+
+.newslist {
+    background-color: rgba(38, 18, 12, 0.62);
+    width: 50%;
+}
+
+.containernewsl {
+    width: 94%;
+    margin-left: 3%;
+    height: 90%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tmn {
+    width: 100%;
+    height: 15%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.tmn span{
+    right: 0;
+    position: absolute;
+    color: rgba(255,255,255,0.35);
+}
+.tmn p {
+    margin: 0;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 10px;
+    color: white;
+}
+.Mais{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+background-image: url('../images/estrela.png');
+background-position: center center;
+background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: cover;
+}
+.tmn2 {
+    align-items: flex-end;
+}
+
+.latestp {
+    font-weight: 500;
+    color: #ffd49f !important;
+    font-size: 18px !important;
+    border-bottom: 3px solid #ffd49f;
+    float: left;
+    width: 100px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin-left: 0 !important;
+  
+}
+.tmn3{
+    justify-content: flex-end;
+    border:  none;
+}
+.More{
+    color: rgba(255,255,255,0.75) !important;
+    font-size: 18px !important;
+    cursor: pointer;
+    line-height: 20px;
+}
+.Lhover{
+    color: #ffd49f !important;
+    transition: 0.2s all;
+}
+.l2hover{
+fill-opacity: 0.6;
+fill: #ffd49f;
+}
+.social-fixed{
+    position: fixed;
+    right: 0;
+    width: 170px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.895);
+    top: 30%;
+    border-radius: 5px;
+
+}
+.socialf-container{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+  
+}
+.social-relative{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.absolute-seta{
+    position: absolute;
+    left: -30px;
+    width: 30px;
+    height: 55px;
+    background-color: black;
+    top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textsocial{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.gg2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.flexsocial{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.flexsocial img{
+    width: 30px;
+}
