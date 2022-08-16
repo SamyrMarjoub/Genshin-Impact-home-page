@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Genshin-Impact-home-page/static/css/main.7557cc82.css",
-    "main.js": "/Genshin-Impact-home-page/static/js/main.f3b1b39e.js",
+    "main.css": "/Genshin-Impact-home-page/static/css/main.4f5a2cd3.css",
+    "main.js": "/Genshin-Impact-home-page/static/js/main.0a83cad6.js",
     "static/js/787.28cb0dcd.chunk.js": "/Genshin-Impact-home-page/static/js/787.28cb0dcd.chunk.js",
     "static/media/slide2.jpg": "/Genshin-Impact-home-page/static/media/slide2.ec0f114394014031d989.jpg",
     "static/media/slide3.jpg": "/Genshin-Impact-home-page/static/media/slide3.68e4f7345b754479f731.jpg",
@@ -24,12 +24,12 @@
     "static/media/piramide.svg": "/Genshin-Impact-home-page/static/media/piramide.d54be5f628d580195b0f.svg",
     "static/media/face.svg": "/Genshin-Impact-home-page/static/media/face.3f9a1378a5d79772691e4726416a2110.svg",
     "static/media/triangulobaixo.svg": "/Genshin-Impact-home-page/static/media/triangulobaixo.0d69942f8ae88f9fcfe2.svg",
-    "main.7557cc82.css.map": "/Genshin-Impact-home-page/static/css/main.7557cc82.css.map",
-    "main.f3b1b39e.js.map": "/Genshin-Impact-home-page/static/js/main.f3b1b39e.js.map",
+    "main.4f5a2cd3.css.map": "/Genshin-Impact-home-page/static/css/main.4f5a2cd3.css.map",
+    "main.0a83cad6.js.map": "/Genshin-Impact-home-page/static/js/main.0a83cad6.js.map",
     "787.28cb0dcd.chunk.js.map": "/Genshin-Impact-home-page/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7557cc82.css",
-    "static/js/main.f3b1b39e.js"
+    "static/css/main.4f5a2cd3.css",
+    "static/js/main.0a83cad6.js"
   ]
 }
