@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/Genshin-Impact-home-page/static/css/main.12db027f.css",
-    "main.js": "/Genshin-Impact-home-page/static/js/main.735441d5.js",
+    "main.css": "/Genshin-Impact-home-page/static/css/main.7557cc82.css",
+    "main.js": "/Genshin-Impact-home-page/static/js/main.f3b1b39e.js",
     "static/js/787.28cb0dcd.chunk.js": "/Genshin-Impact-home-page/static/js/787.28cb0dcd.chunk.js",
-    "static/media/bgvideo.gif": "/Genshin-Impact-home-page/static/media/bgvideo.67a3d7c04dd3071380d6.gif",
     "static/media/slide2.jpg": "/Genshin-Impact-home-page/static/media/slide2.ec0f114394014031d989.jpg",
     "static/media/slide3.jpg": "/Genshin-Impact-home-page/static/media/slide3.68e4f7345b754479f731.jpg",
     "static/media/slide4.jpg": "/Genshin-Impact-home-page/static/media/slide4.a6f8b899f318b8ac9d0d.jpg",
+    "static/media/bgimgmain.jpg": "/Genshin-Impact-home-page/static/media/bgimgmain.3ff957390f284500b52e.jpg",
     "static/media/xiao.png": "/Genshin-Impact-home-page/static/media/xiao.1a543c432a167f63cdb2.png",
     "static/media/jean2.png": "/Genshin-Impact-home-page/static/media/jean2.93ae46f741153a0df241.png",
     "static/media/secondbgimg.jpg": "/Genshin-Impact-home-page/static/media/secondbgimg.cb030d6a1c6772a41762.jpg",
@@ -24,12 +24,12 @@
     "static/media/piramide.svg": "/Genshin-Impact-home-page/static/media/piramide.d54be5f628d580195b0f.svg",
     "static/media/face.svg": "/Genshin-Impact-home-page/static/media/face.3f9a1378a5d79772691e4726416a2110.svg",
     "static/media/triangulobaixo.svg": "/Genshin-Impact-home-page/static/media/triangulobaixo.0d69942f8ae88f9fcfe2.svg",
-    "main.12db027f.css.map": "/Genshin-Impact-home-page/static/css/main.12db027f.css.map",
-    "main.735441d5.js.map": "/Genshin-Impact-home-page/static/js/main.735441d5.js.map",
+    "main.7557cc82.css.map": "/Genshin-Impact-home-page/static/css/main.7557cc82.css.map",
+    "main.f3b1b39e.js.map": "/Genshin-Impact-home-page/static/js/main.f3b1b39e.js.map",
     "787.28cb0dcd.chunk.js.map": "/Genshin-Impact-home-page/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12db027f.css",
-    "static/js/main.735441d5.js"
+    "static/css/main.7557cc82.css",
+    "static/js/main.f3b1b39e.js"
   ]
 }
